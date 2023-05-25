@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.ConsoleUI", "microerp\MicroERP.ConsoleUI.csproj", "{C221BDA6-C3D1-4C1D-A230-A1963EA0F41C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.DAL", "microerp.DAL\MicroERP.DAL.csproj", "{84CBF9A4-61BE-4AE3-A137-97AD235CF70B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.Core", "microerp.core\MicroERP.Core.csproj", "{70E7A94F-6B49-48F0-8238-1A27E06093DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.Services", "microerp.service\MicroERP.Services.csproj", "{1E7C676F-719A-48F4-8D96-27A9A9CB35E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.Tests", "MicroERP.Tests\MicroERP.Tests.csproj", "{56956A3C-8553-4C54-91E7-19DF01DD609C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroERP.WepAPI", "MicroERP.WepAPI\MicroERP.WepAPI.csproj", "{644277D0-2FEF-4675-8701-8C643B31D30A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C221BDA6-C3D1-4C1D-A230-A1963EA0F41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C221BDA6-C3D1-4C1D-A230-A1963EA0F41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C221BDA6-C3D1-4C1D-A230-A1963EA0F41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C221BDA6-C3D1-4C1D-A230-A1963EA0F41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CBF9A4-61BE-4AE3-A137-97AD235CF70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CBF9A4-61BE-4AE3-A137-97AD235CF70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CBF9A4-61BE-4AE3-A137-97AD235CF70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CBF9A4-61BE-4AE3-A137-97AD235CF70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E7A94F-6B49-48F0-8238-1A27E06093DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E7A94F-6B49-48F0-8238-1A27E06093DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E7A94F-6B49-48F0-8238-1A27E06093DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E7A94F-6B49-48F0-8238-1A27E06093DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7C676F-719A-48F4-8D96-27A9A9CB35E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7C676F-719A-48F4-8D96-27A9A9CB35E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7C676F-719A-48F4-8D96-27A9A9CB35E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7C676F-719A-48F4-8D96-27A9A9CB35E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56956A3C-8553-4C54-91E7-19DF01DD609C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56956A3C-8553-4C54-91E7-19DF01DD609C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56956A3C-8553-4C54-91E7-19DF01DD609C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56956A3C-8553-4C54-91E7-19DF01DD609C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644277D0-2FEF-4675-8701-8C643B31D30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644277D0-2FEF-4675-8701-8C643B31D30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644277D0-2FEF-4675-8701-8C643B31D30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644277D0-2FEF-4675-8701-8C643B31D30A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD5F9E84-E15C-4FFD-853C-51A9CAA93877}
+	EndGlobalSection
+EndGlobal
